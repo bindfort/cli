@@ -14,6 +14,12 @@ Download the archive for your platform from the [latest release](https://github.
 
 Every release includes `checksums.sha256`. The public package contains the scanner-only binary, not the Bindfort gateway or its source code.
 
+On macOS or Linux, install and update it with Homebrew:
+
+```sh
+brew install bindfort/tap/bindfort
+```
+
 ## Run a scan
 
 Install the MCP server or project dependencies first, then point Bindfort at the installed tree:
